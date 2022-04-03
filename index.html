@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Draw</title>
+  </head>
+  <body>
+   <div id="main">
+     <canvas id="canva" height="180" width="264">
+     </canvas>
+     <button id="plus" onclick="draw_up()"> <p>▲</p>  </button>
+     <button id="left" onclick="draw_left()"> <p>◄</p>  </button>
+     <button id="right" onclick="draw_right()"> <p>►</p>  </button>
+     <button id="minus" onclick="draw_down()"> <p>▼</p>  </button>
+
+
+     <table id="colors">
+      <tr>
+        <th> <button id="blue" onclick="blue()"> </button> </th>
+        <th> <button id="red" onclick="red()"></button> </th>
+      </tr>
+      <tr>
+        <th> <button id="green" onclick="green()"></button> </th>
+        <th> <button id="brown" onclick="brown()"></button> </th>
+      </tr>
+      <tr>
+        <th> <button id="pink" onclick="pink()"></button> </th>
+        <th> <button id="purple" onclick="purple()"></button> </th>
+      </tr>
+      <tr>
+        <th> <button id="white" onclick="white()"></button> </th>
+        <th> <button id="black" onclick="black()"></button></th>
+      </tr>
+
+     </table>
+
+     <button id="layer" onclick="layer()"></button>
+   </div>
+
+
+   <script src="main.js"></script>
+  </body>
+</html>

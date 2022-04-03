@@ -1,0 +1,142 @@
+:root {
+  --h: 35px;
+  --w: 35px; 
+}
+
+#canva
+{
+	position: relative;
+	background-color: white;
+	left: 8px;
+	top: 8px;
+	border-radius: 5px;
+}
+
+body 
+{
+	background-color: rgb(0,191,255);
+}
+
+#main
+{
+	background-color: rgb(220, 20, 60);
+	border-radius: 10px;
+	position: relative;
+	left: 42%;
+	top: 200px;	
+	width: 280px;
+	height: 400px;
+}
+
+#plus
+{
+	position: relative;
+	height: var(--h);
+	width: var(--w);
+	
+	top: 13px;
+	left: 45px;
+}
+
+#minus
+{
+	position: relative;
+	height: var(--h);
+	width: var(--w);
+	
+	top: 67px;
+	right: 75px;
+}
+
+#left
+{
+	position: relative;
+	height: var(--h);
+	width: var(--w);
+
+	top: 38px;
+	right: 35px;
+}
+
+#right
+{
+	position: relative;
+	height: var(--h);
+	width: var(--w);
+
+	top: 38px;
+	left: 5px;
+}
+
+
+/* colors  */
+
+#colors
+{
+	position: relative;
+	left: 180px;
+	bottom: 4px;
+
+}
+
+#blue
+{
+	height: var(--h);
+	width: var(--w);
+}
+
+#red
+{
+	height: var(--h);
+	width: var(--w);
+}
+
+#green
+{
+	height: var(--h);
+	width: var(--w);
+}
+
+#brown
+{
+	height: var(--h);
+	width: var(--w);
+}
+
+#pink
+{
+	height: var(--h);
+	width: var(--w);
+}
+
+#purple
+{
+	height: var(--h);
+	width: var(--w);
+}
+
+#white
+{
+	height: var(--h);
+	width: var(--w);
+}
+
+#black
+{
+	height: var(--h);
+	width: var(--w);
+}
+
+/* layer */
+
+#layer
+{
+	height: var(--h);
+	width: 100px;
+
+	position: relative;
+	bottom: 44px;
+	left: 18px;
+}
+
+
